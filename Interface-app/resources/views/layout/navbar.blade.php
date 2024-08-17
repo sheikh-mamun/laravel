@@ -10,10 +10,10 @@
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 						<li class="nav-item active">
-							<a class="nav-link" href="{{'/home'}}">Home</a>
+							<a class="nav-link" href="{{route('home')}}">Home</a>
 						</li>
 						<li><a class="nav-link" href="{{'/shop'}}">Shop</a></li>
-						<li><a class="nav-link" href="{{'/about'}}">About us</a></li>
+						<li><a class="nav-link" href="{{route('about')}}">About us</a></li>
 						<li><a class="nav-link" href="{{'/service'}}">Services</a></li>
 						<li><a class="nav-link" href="{{'/blog'}}">Blog</a></li>
 						<li><a class="nav-link" href="{{'/contact'}}">Contact us</a></li>

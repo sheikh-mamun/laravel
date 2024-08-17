@@ -8,15 +8,15 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('pages/home');
-});
+})->name('home');
 
 Route::get('/shop', function () {
     return view('pages/shop');
-});
+})->name('shop');
 
 Route::get('/about', function () {
     return view('pages/about');
-});
+})->name('about');
 
 Route::get('/service', function () {
     return view('pages/service');
