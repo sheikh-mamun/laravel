@@ -146,7 +146,8 @@
 
         <li class="message-item">
           <a href="#">
-            <img src="{{asset(admin-assets/assets/img/messages-3.jpg)}}" alt="" class="rounded-circle">
+            <img src="{{ asset('admin-assets/assets/img/messages-3.jpg') }}" alt="" class="rounded-circle">
+
             <div>
               <h4>David Muldon</h4>
               <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -165,64 +166,65 @@
       </ul><!-- End Messages Dropdown Items -->
 
     </li><!-- End Messages Nav -->
+  </li><!-- End Messages Nav -->
 
-    <li class="nav-item dropdown pe-3">
+  <li class="nav-item dropdown pe-3">
 
-      <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-        <img src="{{asset(admin-assets/assets/img/)}}" alt="Profile" class="rounded-circle">
-        <span class="d-none d-md-block dropdown-toggle ps-2">Sheikh mamun</span>
-      </a><!-- End Profile Iamge Icon -->
+    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+      <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+      <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+    </a><!-- End Profile Iamge Icon -->
 
-      <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-        <li class="dropdown-header">
-          <h6>Sheikh mamun</h6>
-          <span>Web Developer</span>
-        </li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
+    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+      <li class="dropdown-header">
+        <h6>Kevin Anderson</h6>
+        <span>Web Designer</span>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
 
-        <li>
-          <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-            <i class="bi bi-person"></i>
-            <span>My Profile</span>
-          </a>
-        </li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>My Profile</span>
+        </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
 
-        <li>
-          <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-            <i class="bi bi-gear"></i>
-            <span>Account Settings</span>
-          </a>
-        </li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+          <i class="bi bi-gear"></i>
+          <span>Account Settings</span>
+        </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
 
-        <li>
-          <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
-            <i class="bi bi-question-circle"></i>
-            <span>Need Help?</span>
-          </a>
-        </li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>Need Help?</span>
+        </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
 
-        <li>
-          <a class="dropdown-item d-flex align-items-center" href="#">
-            <i class="bi bi-box-arrow-right"></i>
-            <span>Sign Out</span>
-          </a>
-        </li>
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="#">
+          <i class="bi bi-box-arrow-right"></i>
+          <span>Sign Out</span>
+        </a>
+      </li>
 
-      </ul><!-- End Profile Dropdown Items -->
-    </li><!-- End Profile Nav -->
+    </ul><!-- End Profile Dropdown Items -->
+  </li><!-- End Profile Nav -->
 
-  </ul>
+</ul>
 </nav><!-- End Icons Navigation -->
 
 </header><!-- End Header -->
