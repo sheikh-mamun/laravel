@@ -30,6 +30,12 @@ Route::get('/contact', function () {
     return view('pages/contact');
 });
 
+Route::get('/login', function () {
+    return view('pages/login');
+});
+
+
+
 ######################################admin#####################
 
 Route::get('/admin-master', function () {

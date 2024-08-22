@@ -17,12 +17,14 @@
 						<li><a class="nav-link" href="{{'/service'}}">Services</a></li>
 						<li><a class="nav-link" href="{{'/blog'}}">Blog</a></li>
 						<li><a class="nav-link" href="{{'/contact'}}">Contact us</a></li>
+						<li><a class="nav-link" href="{{'/login'}}">Log in</a></li>
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 						<li><a class="nav-link" href="#"><img src="assests/images/user.svg"></a></li>
 						<li><a class="nav-link" href="cart.html"><img src="assests/images/cart.svg"></a></li>
 					</ul>
+					
 				</div>
 			</div>
 				
