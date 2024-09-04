@@ -17,7 +17,7 @@
 						<li><a class="nav-link" href="{{'/service'}}">Services</a></li>
 						<li><a class="nav-link" href="{{'/blog'}}">Blog</a></li>
 						<li><a class="nav-link" href="{{'/contact'}}">Contact us</a></li>
-						<li><a class="nav-link" href="{{ route('login') }}">Log in</a></li>
+						{{-- <li><a class="nav-link" href="{{ route('login') }}">Log in</a></li> --}}
 
 					</ul>
 
