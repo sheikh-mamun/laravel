@@ -30,6 +30,19 @@ Route::get('/contact', function () {
     return view('pages/contact');
 });
 
+
+Route::get('/login', function () {
+    return 'This is the login page';
+});
+
+
+
+
+
+
+
+
+
 // Auth::routes();
 
 // Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
